@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ChatBot | Creator&#39;s Blog (Hugo Theme)</title>
+    <link>http://localhost:1313/tag/chatbot/</link>
+      <atom:link href="http://localhost:1313/tag/chatbot/index.xml" rel="self" type="application/rss+xml" />
+    <description>ChatBot</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 11 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
+      <title>ChatBot</title>
+      <link>http://localhost:1313/tag/chatbot/</link>
+    </image>
+    
+    <item>
+      <title>👩🏼‍🏫 PDF ChatBot</title>
+      <link>http://localhost:1313/blog/pdf-chatbot/</link>
+      <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/pdf-chatbot/</guid>
+      <description>&lt;h1 id=&#34;what-is-large-language-modelllm&#34;&gt;What is Large Language Model(LLM)?&lt;/h1&gt;
+&lt;p&gt;A large language model (LLM) is a language model notable for its ability to achieve general-purpose language generation and other natural language processing tasks such as classification. LLMs acquire these abilities by learning statistical relationships from text documents during a computationally intensive self-supervised and semi-supervised training process. LLMs can be used for text generation, a form of generative AI, by taking an input text and repeatedly predicting the next token or word.&lt;/p&gt;
+&lt;h1 id=&#34;concern-1---what-model-should-i-use&#34;&gt;Concern 1 - What model should I use?&lt;/h1&gt;
+&lt;p&gt;Through ChatGPT, I began to take an interest in Generative AI, and I&amp;rsquo;ve already learned that many excellent models, including those on &lt;a href=&#34;https://huggingface.co/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HuggingFace&lt;/a&gt;, are available for free or under licenses through various avenues. I&amp;rsquo;ve decided to utilize models that are frequently used or mentioned in the Q&amp;amp;A format, which are suitable for my project.&lt;/p&gt;
+&lt;p&gt;The lists of LLM models were further divided based on the number of parameters available for each model, and I decided to compare the models below.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;###ChatGPT&#34;&gt;ChatGPT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;###Titan&#34;&gt;Titan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;###Mistral&#34;&gt;Mistral&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;###Llama2&#34;&gt;Llama 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;comparisons&#34;&gt;Comparisons&lt;/h2&gt;
+&lt;p&gt;Based on the analytic comparisons from &lt;a href=&#34;https://artificialanalysis.ai/models&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Artificial Analysis AI&lt;/a&gt;, GPT4 showed the best performance, but pricing was an issue. As for Llama 2, while its 70B model could be compared to the previously mentioned models, it&amp;rsquo;s too large to host directly, and it seems that no API is provided. It seems that GPT3.5 and Mistral models are proper to use for my project.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;content/POC/PDF%20Chatbot/comparison.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;llm-list&#34;&gt;LLM list&lt;/h2&gt;
+&lt;h3 id=&#34;chatgpt&#34;&gt;ChatGPT&lt;/h3&gt;
+&lt;p&gt;No need to explain about ChatGPT. Too many people are already using it and it has been verified for its performance and quality by the public. ChatGPT was created by OpenAI and is a form of generative AI that uses a Generative Pre-trained Transformer (GPT) to process requests and formulate responses. It is trained with reinforcement learning through human feedback and reward models that rank the best responses.&lt;/p&gt;
+&lt;h3 id=&#34;titan&#34;&gt;Titan&lt;/h3&gt;
+&lt;p&gt;Titan is created by Amazon and it is exclusively available on AWS Bedrock. The model provides a fully managed API that offers a variety of high-performance image, multi-model, and text models to customers. The models are built and pre-trained on large datasets in AWS, making them powerful and versatile models that support responsible AI use across various use cases.&lt;/p&gt;
+&lt;h3 id=&#34;mistral&#34;&gt;Mistral&lt;/h3&gt;
+&lt;p&gt;Mistral is a large language model developed by Mistral AI, a French AI company. It is designed to understand and generate human-like text in a variety of languages, including English, French, German, Spanish, and many others. Mistral is a powerful language model that is well-suited for a wide range of natural language processing tasks. Its multilingual capabilities make it a valuable tool for businesses and organizations that operate in multiple languages, and its powerful language generation capabilities make it well-suited for conversational AI and content generation applications.&lt;/p&gt;
+&lt;h3 id=&#34;llama2&#34;&gt;Llama2&lt;/h3&gt;
+&lt;p&gt;A large language model developed by Meta, the parent company of Facebook. It is an open source model that is available for research and commercial purposes, making it a significant development in the AI space. Llama 2 is designed to predict the most plausible follow-on text using its neural network, which is modeled after the human brain. It is trained with 2 trillion tokens from publicly available sources like Common Crawl, Wikipedia, and public domain books from Project Gutenberg.&lt;/p&gt;
+&lt;h1 id=&#34;concern-2---where-do-i-use&#34;&gt;Concern 2 - Where do I use?&lt;/h1&gt;
+&lt;p&gt;Ultimately, I had no choice but to either deploy the models myself or utilize provided APIs, as I wanted these projects to be accessible not only on my laptop but also regardless of the equipment and location. For me, the most important aspect was achieving performance that exceeded a certain threshold relative to the minimum cost.&lt;/p&gt;
+&lt;p&gt;More research is needed on hosting the model directly, but methods such as deploying it on Cloud (e.g., AWS EC2, SageMaker) or using HuggingFace seemed expensive based on the usage I had in mind, so I excluded them from the comparison group.&lt;/p&gt;
+&lt;p&gt;The price comparison below only includes places where solutions are provided, and there may be a wider range of services available beyond the content below.&lt;/p&gt;
+&lt;h2 id=&#34;price-comparison&#34;&gt;Price Comparison&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Price is based on 04/07/2024&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Service&lt;/th&gt;
+&lt;th&gt;Model Name&lt;/th&gt;
+&lt;th&gt;Input Price (1,000 tokens)&lt;/th&gt;
+&lt;th&gt;Output Price (1,000 tokens)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://openai.com/pricing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenAI&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;gpt-3.5-turbo-0125&lt;/td&gt;
+&lt;td&gt;$0.0005&lt;/td&gt;
+&lt;td&gt;$0.0015&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;gpt-3.5-turbo-instruct&lt;/td&gt;
+&lt;td&gt;$0.0015&lt;/td&gt;
+&lt;td&gt;$0.0020&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;gpt-3.5-turbo-1106&lt;/td&gt;
+&lt;td&gt;$0.0010&lt;/td&gt;
+&lt;td&gt;$0.0020&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://aws.amazon.com/bedrock/pricing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AWS Bedrock&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Titan Text Lite&lt;/td&gt;
+&lt;td&gt;$0.0003&lt;/td&gt;
+&lt;td&gt;$0.0004&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Titan Text Express&lt;/td&gt;
+&lt;td&gt;$0.0008&lt;/td&gt;
+&lt;td&gt;$0.0016&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Mixtral 8*7B&lt;/td&gt;
+&lt;td&gt;$0.00045&lt;/td&gt;
+&lt;td&gt;$0.0007&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Mixtral 7B&lt;/td&gt;
+&lt;td&gt;$0.00015&lt;/td&gt;
+&lt;td&gt;$0.0002&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://deepinfra.com/models&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DeepInfra&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Mixtral 8*7B Chat&lt;/td&gt;
+&lt;td&gt;$0.00027&lt;/td&gt;
+&lt;td&gt;$0.00027&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;OpenChat-3.5&lt;/td&gt;
+&lt;td&gt;$0.00013&lt;/td&gt;
+&lt;td&gt;$0.00013&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Mistral-7B&lt;/td&gt;
+&lt;td&gt;$0.00013&lt;/td&gt;
+&lt;td&gt;$0.00013&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The usage I had in mind was estimating a maximum of 1000 input tokens and 2000 output tokens per day. It depends on what question I ask, but this is higher than the actual amount I use in the ChatGPT website.&lt;/p&gt;
+&lt;p&gt;The price would be as follows per a month:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Model&lt;/th&gt;
+&lt;th&gt;Price ($/day)&lt;/th&gt;
+&lt;th&gt;Price ($/month)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://openai.com/pricing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenAI&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;gpt-3.5-turbo-0125&lt;/td&gt;
+&lt;td&gt;$0.0035&lt;/td&gt;
+&lt;td&gt;$0.105&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;gpt-3.5-turbo-instruct&lt;/td&gt;
+&lt;td&gt;$0.0055&lt;/td&gt;
+&lt;td&gt;$0.165&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;gpt-3.5-turbo-1106&lt;/td&gt;
+&lt;td&gt;$0.005&lt;/td&gt;
+&lt;td&gt;$0.15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://aws.amazon.com/bedrock/pricing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AWS Bedrock&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Titan Text Lite&lt;/td&gt;
+&lt;td&gt;$0.0011&lt;/td&gt;
+&lt;td&gt;$0.033&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Titan Text Express&lt;/td&gt;
+&lt;td&gt;$0.004&lt;/td&gt;
+&lt;td&gt;$0.12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Mixtral 8*7B&lt;/td&gt;
+&lt;td&gt;$0.00185&lt;/td&gt;
+&lt;td&gt;$0.0555&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Mixtral 7B&lt;/td&gt;
+&lt;td&gt;$0.00055&lt;/td&gt;
+&lt;td&gt;$0.0165&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://deepinfra.com/models&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DeepInfra&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Mixtral 8*7B Chat&lt;/td&gt;
+&lt;td&gt;$0.00081&lt;/td&gt;
+&lt;td&gt;$0.0243&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;OpenChat-3.5&lt;/td&gt;
+&lt;td&gt;$0.00039&lt;/td&gt;
+&lt;td&gt;$0.0117&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Mistral-7B&lt;/td&gt;
+&lt;td&gt;$0.00039&lt;/td&gt;
+&lt;td&gt;$0.0117&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Honestly, the price is less than I though and I think that I can go with any models I want to use. Then, I also think that let&amp;rsquo;s give OpenAI a try due to the large community.&lt;/p&gt;
+&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;After comparing price and performance, it seems that a cost within the acceptable range per month can be achieved. The gpt-3.5-turbo-0125 model, which has many usage examples, appears to be the most suitable model currently. Of course, as the project develops further, various attempts will be made, but the plan is to decide on the model to use and move on to the next steps afterward.&lt;/p&gt;
+&lt;h1 id=&#34;reference&#34;&gt;Reference&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Wikipedia: &lt;a href=&#34;https://en.wikipedia.org/wiki/Large_language_model&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://en.wikipedia.org/wiki/Large_language_model&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;OpenAI: &lt;a href=&#34;https://openai.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://openai.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mistral AI: &lt;a href=&#34;https://mistral.ai/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://mistral.ai/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Llama 2: &lt;a href=&#34;https://llama.meta.com/llama2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://llama.meta.com/llama2/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;AWS Bedrock: &lt;a href=&#34;https://aws.amazon.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aws.amazon.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Artificial Analysis AI: &lt;a href=&#34;https://artificialanalysis.ai/models&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://artificialanalysis.ai/models&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
