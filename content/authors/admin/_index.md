@@ -1,13 +1,15 @@
 ---
+# avatar.jpg
+
 # Display name
-title: 吳健雄
+title: Jongmin Lee
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# name_pronunciation: Jongmin Lee
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Jongmin
+last_name: Lee
 
 # Status emoji
 status:
@@ -17,11 +19,11 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Software Developer | UCI Alumni
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
+  - name:
     url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
@@ -31,18 +33,16 @@ bio: My research interests include distributed robotics, mobile computing and pr
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: "mailto:tltmzmaos@gmail.com"
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/jml1228/
   # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
   - icon: academicons/cv
     url: uploads/resume.pdf
     label: Download my resume
+  - icon: brands/github
+    url: https://github.com/tltmzmaos
   - icon: rss
     url: ./post/index.xml
     label: Subscribe to my blog via RSS feed
@@ -51,9 +51,5 @@ profiles:
 highlight_name: true
 
 # Author's website URL
-website: ""
+website: "https://jongmin.me"
 ---
-
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include
-distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops
-self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
